@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class cab{
+    int d;
+    int fare;
+    cab(){
+        fare=20;
+    }
+}
+class  {
+    public static void main (String[] args) {
+    cab one = new cab();
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Distance Travelled : ");
+    one.d=sc.nextInt();
+    one.fare += 10* one.d;
+    System.out.println("Toal Fare : RS. "+ one.fare);
+    }
+}
